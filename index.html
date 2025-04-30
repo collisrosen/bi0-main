@@ -100,7 +100,7 @@ html, body {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 40px;
   line-height:25px;
   text-align: center;
 }
@@ -114,7 +114,7 @@ h1 {
 }
 
 p {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 20px;
   text-align: center;
 }
@@ -197,7 +197,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 100%;
+  width: 120%;
 }
 
 .card button {
@@ -207,7 +207,7 @@ a {
   border: none;
   border-radius: 40px;
   padding: 12px;
-  font-size: 22px;
+  font-size: 26px;
   line-height: 13px;
   font-weight: 500;
   cursor: pointer;
@@ -261,7 +261,7 @@ a {
 }
 
 .text {
-  font-size: 35px;
+  font-size: 40px;
   font-family: Arial Black, Gadget, sans-serif;
   color: #d10000;
 }
@@ -277,20 +277,6 @@ a {
 }
 
   </style>
-    <script>
-      const audio = document.getElementById('backgroundAudio');
-      const muteButton = document.getElementById('muteButton');
-  
-      function toggleMute() {
-        if (audio.muted) {
-          audio.muted = false;
-          muteButton.textContent = 'Mute';
-        } else {
-          audio.muted = true;
-          muteButton.textContent = 'Unmute';
-        }
-      }
-    </script>
 </head>
 
 <body>
@@ -319,10 +305,14 @@ a {
       <div class="socials">
         <a href="https://vrchat.com/home/user/usr_16b1247b-c9ff-4890-bee9-35ae8ccd61c5">
           <button>MY VRCHAT</button>
-        </a>
+      
+        <a href="https://x.com/rosencollis"><button>TWITTER</button></a>
+        <a href="https://discord.gg/yaEyQkGBaw"><button>DISCORD HUB</button></a>
+        <a href="https://vrchat.com/home/group/grp_2a182d6b-7015-4854-aad8-39396aea526e"><button>FLUFFYPAWS</button></a>
         <a href="https://main.kittyhook.info">
-          <button class="primary">RANDOM STUFF</button>
+          <button>RANDOM STUFF</button>
         </a>
+        
       </div>
     </div>
   </div>
@@ -331,3 +321,20 @@ a {
 </body>
 
 </html>
+  <script>
+    const audio = document.getElementById('backgroundAudio');
+    const muteButton = document.getElementById('muteButton');
+
+    function toggleMute() {
+      if (audio.muted) {
+        audio.muted = false;
+        muteButton.textContent = 'Mute';
+      } else {
+        audio.muted = true;
+        muteButton.textContent = 'Unmute';
+      }
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+<!-- Hi, whacha doin in my source :} Gamer moment-->
